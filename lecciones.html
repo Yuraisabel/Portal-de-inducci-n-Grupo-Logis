@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lecciones aprendidas - Grupo Logis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo-title">
+      <div class="logo">
+        <img src="img/logo-logis.jpg" alt="Grupo Logis">
+      </div>
+      <div class="header-text">
+        <h1>Portal de Inducción</h1>
+        <span>Área de Contratación - Grupo Logis</span>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Inicio</a>
+        <a href="induccion.html">Inducción</a>
+        <a href="clientes.html">Clientes</a>
+        <a href="herramientas.html">Herramientas</a>
+        <a href="lecciones.html" class="active">Lecciones aprendidas</a>
+      </nav>
+    </div>
+
+    <div class="header-center">
+      <input type="text" class="search-input" placeholder="Buscar error o tema...">
+    </div>
+
+    <div class="user-info">
+      <span>Lecciones</span>
+      <div class="avatar">LA</div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2 class="section-title">Lecciones aprendidas y errores frecuentes</h2>
+      <p class="section-subtitle">
+        Aquí encontrarás casos reales que han generado errores en la liquidación de nómina por datos mal ingresados 
+        en el ERP, y cómo evitarlos.
+      </p>
+    </section>
+
+    <section class="panel">
+      <h3>Video resumen</h3>
+      <div class="video-frame">
+        <video src="video/leccionesAprendidas.mp4" controls></video>
+      </div>
+
+      <p style="font-size:14px;">
+        Te recomendamos ver este video después de completar los módulos de <a href="induccion.html">Inducción</a>.
+      </p>
+    </section>
+
+    <section class="panel">
+      <h3>Errores frecuentes en el proceso de contratación</h3>
+
+      <div class="table-wrapper">
+        <table class="table-logis">
+          <thead>
+            <tr>
+              <th>Error</th>
+              <th>Impacto</th>
+              <th>Cómo prevenirlo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Centro de trabajo errado en el ERP</td>
+              <td>Error en liquidación de nómina y afectación del pago al trabajador.</td>
+              <td>Verificar contra ANS del cliente y contra requerimiento inicial.</td>
+            </tr>
+            <tr>
+              <td>Fecha de ingreso diferente a la real</td>
+              <td>Desfase en pago de salario y seguridad social.</td>
+              <td>Confirmar la fecha con el cliente antes de registrar el contrato.</td>
+            </tr>
+            <tr>
+              <td>Contratos sin examen médico aprobado</td>
+              <td>Riesgo legal y bloqueo del trabajador en planta.</td>
+              <td>Consultar siempre el estado en Medicina Preventiva.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <ul style="margin-top:8px;">
+        <li>En caso de duda, consulta primero y registra después.</li>
+        <li>Documentar cada caso especial ayuda a mejorar el proceso.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    Portal interno de inducción - Grupo Logis · Lecciones aprendidas.
+  </footer>
+</body>
+</html>

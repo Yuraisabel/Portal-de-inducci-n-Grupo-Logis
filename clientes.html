@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Clientes y ANS - Grupo Logis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo-title">
+      <div class="logo">
+        <img src="img/logo-logis.jpg" alt="Grupo Logis">
+      </div>
+      <div class="header-text">
+        <h1>Portal de Inducción</h1>
+        <span>Área de Contratación - Grupo Logis</span>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Inicio</a>
+        <a href="induccion.html">Inducción</a>
+        <a href="clientes.html" class="active">Clientes</a>
+        <a href="herramientas.html">Herramientas</a>
+        <a href="lecciones.html">Lecciones aprendidas</a>
+      </nav>
+    </div>
+
+    <div class="header-center">
+      <input type="text" class="search-input" placeholder="Buscar cliente por nombre o sector...">
+    </div>
+
+    <div class="user-info">
+      <span>Clientes</span>
+      <div class="avatar">CL</div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2 class="section-title">Clientes y ANS relacionados con contratación</h2>
+      <p class="section-subtitle">
+        A continuación encontrarás un resumen de los clientes y sus principales particularidades en el proceso
+        de contratación (documentos, tiempos, validaciones especiales).
+      </p>
+    </section>
+
+    <section class="panel">
+      <h3>Listado de clientes</h3>
+
+      <div class="table-wrapper">
+        <table class="table-logis">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Cliente</th>
+              <th>Sector</th>
+              <th>Tipo de contrato</th>
+              <th>Requisitos clave</th>
+              <th>Detalle ANS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>C-001</td>
+              <td>Cliente Alfa</td>
+              <td>Retail</td>
+              <td>Temporal</td>
+              <td>Examen médico previo, carta de no antecedentes.</td>
+              <td><a href="cliente-detalle.html">Ver detalle</a></td>
+            </tr>
+            <tr>
+              <td>C-002</td>
+              <td>Cliente Beta</td>
+              <td>Manufactura</td>
+              <td>Obra o labor</td>
+              <td>Inducción en planta, EPP obligatorio.</td>
+              <td><a href="cliente-detalle.html">Ver detalle</a></td>
+            </tr>
+            <tr>
+              <td>C-003</td>
+              <td>Cliente Gamma</td>
+              <td>Servicios</td>
+              <td>Indefinido</td>
+              <td>Prueba de conocimientos, validación de referencias.</td>
+              <td><a href="cliente-detalle.html">Ver detalle</a></td>
+            </tr>
+            <tr>
+              <td>C-004</td>
+              <td>Cliente Delta</td>
+              <td>Salud</td>
+              <td>Temporal</td>
+              <td>Esquema de vacunación, exámenes específicos.</td>
+              <td><a href="cliente-detalle.html">Ver detalle</a></td>
+            </tr>
+            <tr>
+              <td>C-005</td>
+              <td>Cliente Épsilon</td>
+              <td>Logística</td>
+              <td>Obra o labor</td>
+              <td>Curso de seguridad en bodegas, visita de ingreso.</td>
+              <td><a href="cliente-detalle.html">Ver detalle</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p style="font-size:13px; margin-top:8px;">
+        La versión completa de los ANS se encuentra en el archivo compartido en la red interna:
+        
+        <a href="docs/ANS.xlsx " download>Descargar Excel ANS</a>
+      </p>
+    </section>
+
+
+    
+    <section class="panel">
+      <h3>Recomendaciones para uso de ANS</h3>
+      <ul>
+        <li>Verificar siempre la última versión del ANS antes de iniciar un proceso de contratación.</li>
+        <li>Si encuentras una diferencia entre la operación y el documento, registrar el caso para revisión con tu coordinador.</li>
+        <li>Usar los ANS como guía para explicar al candidato por qué ciertos documentos son obligatorios.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    Portal interno de inducción - Grupo Logis · Sección de clientes y ANS.
+  </footer>
+</body>
+</html>

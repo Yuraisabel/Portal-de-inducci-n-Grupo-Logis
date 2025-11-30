@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inducción al área de contratación - Grupo Logis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo-title">
+      <div class="logo">
+        <img src="img/logo-logis.jpg" alt="Grupo Logis">
+      </div>
+      <div class="header-text">
+        <h1>Portal de Inducción</h1>
+        <span>Área de Contratación - Grupo Logis</span>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Inicio</a>
+        <a href="induccion.html" class="active">Inducción</a>
+        <a href="clientes.html">Clientes</a>
+        <a href="herramientas.html">Herramientas</a>
+        <a href="lecciones.html">Lecciones aprendidas</a>
+      </nav>
+    </div>
+
+    <div class="header-center">
+      <input type="text" class="search-input" placeholder="Buscar módulo o tema...">
+    </div>
+
+    <div class="user-info">
+      <span>Inducción</span>
+      <div class="avatar">IN</div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2 class="section-title">Inducción al área de contratación</h2>
+      <p class="section-subtitle">
+        Revisa los módulos en orden recomendado para entender el flujo completo desde selección hasta la liquidación de nómina.
+      </p>
+    </section>
+
+    <section class="layout-with-sidebar">
+      <aside class="sidebar">
+        <h3>Módulos de inducción</h3>
+        <ul>
+          <li><a href="#mod-seleccion" class="active">1. Relación con Selección</a></li>
+          <li><a href="#mod-contratacion">2. Proceso de Contratación</a></li>
+          <li><a href="#mod-nomina">3. Relación con Nómina</a></li>
+          <li><a href="#mod-med-preventiva">4. Medicina preventiva y exámenes</a></li>
+        </ul>
+
+        <h3 style="margin-top:16px;">Recomendaciones</h3>
+        <ul>
+          <li>Ver los videos con audífonos.</li>
+          <li>Tener a la mano tu usuario del ERP.</li>
+          <li>Tomar nota de dudas para tu coordinador.</li>
+        </ul>
+      </aside>
+
+      <section>
+        <!-- Módulo 1 -->
+        <article id="mod-seleccion" class="panel">
+          <h3>1. Relación con el área de Selección</h3>
+
+          <div class="video-frame">
+            <!-- Reemplaza src por tu video real o iframe de YouTube -->
+            <video src="video/seleccion.mp4" controls>
+              Tu navegador no soporta el elemento de video.
+            </video>
+          </div>
+
+          <p style="font-size:14px;">
+            En este módulo se explica cómo el área de selección entrega la información de los candidatos al área de contratación,
+            y qué campos son <span class="highlight">críticos</span> para evitar errores posteriores en la liquidación de nómina.
+          </p>
+
+          <h4 style="font-size:14px; margin-top:12px;">Puntos clave</h4>
+          <ul>
+            <li>Campos obligatorios en la hoja de selección.</li>
+            <li>Validaciones mínimas antes de crear el contrato en el ERP.</li>
+            <li>Errores frecuentes al transcribir datos (nombres, documentos, centros de costo).</li>
+          </ul>
+
+          <div class="table-wrapper">
+            <table class="table-logis">
+              <thead>
+                <tr>
+                  <th>Elemento</th>
+                  <th>Responsable</th>
+                  <th>Impacto si se omite</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Verificación de documento de identidad</td>
+                  <td>Selección</td>
+                  <td>Riesgo legal y rechazo en afiliaciones.</td>
+                </tr>
+                <tr>
+                  <td>Centro de trabajo correcto</td>
+                  <td>Selección / Contratación</td>
+                  <td>Error en liquidación y pago al trabajador.</td>
+                </tr>
+                <tr>
+                  <td>Tipo de contrato</td>
+                  <td>Contratación</td>
+                  <td>Inconsistencias en el ERP y en nómina.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+
+        <!-- Módulo 2 -->
+        <article id="mod-contratacion" class="panel">
+          <h3>2. Proceso de contratación en Grupo Logis</h3>
+
+          <div class="video-frame">
+            <video src="video/Contratacion.mp4" controls></video>
+          </div>
+
+          <ol>
+            <li>Recepción de la información del candidato.</li>
+            <li>Validación de documentos mínimos según ANS del cliente.</li>
+            <li>Registro del contrato en el ERP.</li>
+            <li>Generación de contrato y envío a firma.</li>
+            <li>Confirmación y archivo digital.</li>
+          </ol>
+
+          <p style="font-size:14px;">
+            Recuerda que algunos clientes tienen procedimientos específicos, los encontrarás en la sección 
+            de <a href="clientes.html">Clientes y ANS</a>.
+          </p>
+        </article>
+
+        <!-- Módulo 3 -->
+        <article id="mod-nomina" class="panel">
+          <h3>3. Relación con el área de Nómina</h3>
+
+          <div class="video-frame">
+            <video src="video/Nomina.mp4" controls></video>
+          </div>
+
+          <p style="font-size:14px;">
+            La correcta digitación en el ERP impacta directamente en la liquidación de nómina. 
+            En este módulo se explica qué campos utiliza Nómina para el pago de los trabajadores temporales.
+          </p>
+
+          <ul>
+            <li>Fechas de ingreso y retiro.</li>
+            <li>Salario básico y factores variables.</li>
+            <li>Centro de costo y centro de trabajo.</li>
+          </ul>
+        </article>
+
+        <!-- Módulo 4 -->
+        <article id="mod-med-preventiva" class="panel">
+          <h3>4. Medicina preventiva y exámenes de ingreso</h3>
+
+          <div class="video-frame">
+            <video src="video/MedicinaPreventiva.mp4" controls></video>
+          </div>
+
+          <p style="font-size:14px;">
+            Aquí se detalla cómo validar que el examen médico de ingreso esté aprobado antes de activar el contrato,
+            y cómo documentar esta información en el expediente digital.
+          </p>
+
+          <p style="font-size:13px; margin-top:8px;">
+            Si tienes dudas sobre el término <a href="https://safetya.co/normatividad/resolucion-1843-de-2025/" target="_blank">Examenes Medicos segun la norma</a>, 
+            puedes consultar esta definición técnica externa.
+          </p>
+        </article>
+
+        <p style="font-size:13px; margin-top:10px;">
+          Después de ver estos módulos, te recomendamos revisar la sección de 
+          <a href="lecciones.html">Lecciones aprendidas</a> para conocer errores reales y cómo evitarlos.
+        </p>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    Portal interno de inducción - Grupo Logis · Inducción al área de contratación.
+  </footer>
+</body>
+</html>

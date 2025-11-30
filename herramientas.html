@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Herramientas tecnológicas - Grupo Logis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo-title">
+      <div class="logo">
+        <img src="img/logo-logis.jpg" alt="Grupo Logis">
+      </div>
+      <div class="header-text">
+        <h1>Portal de Inducción</h1>
+        <span>Área de Contratación - Grupo Logis</span>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Inicio</a>
+        <a href="induccion.html">Inducción</a>
+        <a href="clientes.html">Clientes</a>
+        <a href="herramientas.html" class="active">Herramientas</a>
+        <a href="lecciones.html">Lecciones aprendidas</a>
+      </nav>
+    </div>
+
+    <div class="header-center">
+      <input type="text" class="search-input" placeholder="Buscar herramienta...">
+    </div>
+
+    <div class="user-info">
+      <span>Herramientas</span>
+      <div class="avatar">HT</div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2 class="section-title">Herramientas tecnológicas del proceso de contratación</h2>
+      <p class="section-subtitle">
+        En esta sección encontrarás tutoriales y videos sobre contratación electrónica, Bot de contratación,
+        Power Apps y MUDO.
+      </p>
+    </section>
+
+    <section class="cards-grid">
+      <article class="card">
+        <div class="card-header">
+          <div class="card-icon">📝</div>
+          <h3>Contratación electrónica</h3>
+          <p>Generación, envío y firma de contratos mediante la plataforma de firma electrónica.</p>
+        </div>
+        <a href="#contratacion-electronica" class="btn">Ver tutorial</a>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-icon">🤖</div>
+          <h3>Bot de contratación</h3>
+          <p>Asistente automatizado para registrar contratos estándar y validar información básica.</p>
+        </div>
+        <a href="#bot-contratacion" class="btn">Ver tutorial</a>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-icon">📱</div>
+          <h3>Power Apps / MUDO</h3>
+          <p>Aplicaciones para seguimiento de procesos y actualización de datos en campo.</p>
+        </div>
+        <a href="#powerapps" class="btn">Ver tutorial</a>
+      </article>
+    </section>
+
+    <section id="contratacion-electronica" class="panel">
+      <h3>Contratación electrónica</h3>
+      <div class="video-frame">
+        <video src="video/HerramientasContratacion.mp4" controls></video>
+      </div>
+
+      <ol>
+        <li>Ingresar al módulo de contratos en el ERP.</li>
+        <li>Seleccionar la opción <span class="highlight">Contratación electrónica</span>.</li>
+        <li>Verificar los datos del candidato y del cliente.</li>
+        <li>Enviar contrato a firma y hacer seguimiento al estado.</li>
+      </ol>
+
+      <p style="font-size:13px;">
+        Error frecuente: enviar el contrato con el centro de trabajo incorrecto. 
+        Consulta la página de <a href="clientes.html">Clientes y ANS</a> antes de enviar.
+      </p>
+    </section>
+
+    <section id="bot-contratacion" class="panel">
+      <h3>Bot de contratación</h3>
+      <div class="video-frame">
+        <video src="video/RafaelEnrrique.mp4 " controls></video>
+      </div>
+
+      <ul>
+        <li>El bot permite registrar contratos de forma guiada.</li>
+        <li>Solo está disponible para clientes con ANS estándar.</li>
+        <li>En caso de dudas, el proceso puede continuar de forma manual en el ERP.</li>
+      </ul>
+    </section>
+
+    <section id="powerapps" class="panel">
+      <h3>Power Apps / MUDO</h3>
+      <div class="video-frame">
+        <video src="video/PowerApps.mp4" controls></video>
+      </div>
+
+      <p style="font-size:14px;">
+        Estas aplicaciones permiten registrar novedades y validar información en tiempo real. 
+        Son clave para mantener actualizados los datos de los trabajadores en misión.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    Portal interno de inducción - Grupo Logis · Herramientas tecnológicas.
+  </footer>
+</body>
+</html>

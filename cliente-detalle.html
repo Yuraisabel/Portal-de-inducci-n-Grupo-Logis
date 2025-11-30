@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Detalle cliente - Grupo Logis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo-title">
+      <div class="logo">
+        <img src="img/logo-logis.jpg" alt="Grupo Logis">
+      </div>
+      <div class="header-text">
+        <h1>Portal de Inducción</h1>
+        <span>Área de Contratación - Grupo Logis</span>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Inicio</a>
+        <a href="induccion.html">Inducción</a>
+        <a href="clientes.html" class="active">Clientes</a>
+        <a href="herramientas.html">Herramientas</a>
+        <a href="lecciones.html">Lecciones aprendidas</a>
+      </nav>
+    </div>
+
+    <div class="header-center">
+      <input type="text" class="search-input" placeholder="Buscar dentro del cliente...">
+    </div>
+
+    <div class="user-info">
+      <span>Cliente detalle</span>
+      <div class="avatar">CD</div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2 class="section-title">Cliente Alfa - Resumen de contratación</h2>
+      <p class="section-subtitle">
+        Esta ficha resume el proceso de contratación específico para el Cliente Alfa, según su ANS vigente.
+      </p>
+    </section>
+
+    <section class="panel">
+      <nav class="tab-nav">
+        <a href="#resumen" class="active">Resumen</a>
+        <a href="#procedimiento">Procedimiento</a>
+        <a href="#documentos">Documentos</a>
+        <a href="#casos-especiales">Casos especiales</a>
+        <a href="#contactos">Contactos</a>
+      </nav>
+
+      <article id="resumen">
+        <h3>Resumen general</h3>
+        <p style="font-size:14px;">
+          El Cliente Alfa pertenece al sector <b>retail</b> y maneja principalmente contratos <b>temporales</b>.
+          El énfasis del ANS está en la validación previa de exámenes médicos y en el cumplimiento de fechas de ingreso
+          para aperturas de tienda.
+        </p>
+
+        <ul>
+          <li>Tipo de contrato: Temporal.</li>
+          <li>Volumen estimado: entre 30 y 60 contratos mensuales.</li>
+          <li>Tiempo máximo para vinculación: <span class="highlight">48 horas</span> después de recibido el requerimiento.</li>
+        </ul>
+      </article>
+
+      <article id="procedimiento" style="margin-top:16px;">
+        <h3>Procedimiento de contratación</h3>
+        <ol>
+          <li>Recibir requerimiento del área comercial con el perfil y centro de trabajo.</li>
+          <li>Validar en ANS la lista de documentos exigidos.</li>
+          <li>Verificar en Medicina Preventiva el estado del examen médico.</li>
+          <li>Registrar contrato en el ERP, usando el centro de trabajo correcto.</li>
+          <li>Generar contrato, enviar a firma y archivar en carpeta digital del cliente.</li>
+        </ol>
+      </article>
+
+      <article id="documentos" style="margin-top:16px;">
+        <h3>Documentos requeridos</h3>
+
+        <div class="table-wrapper">
+          <table class="table-logis">
+            <thead>
+              <tr>
+                <th>Documento</th>
+                <th>Obligatorio</th>
+                <th>Observaciones</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Cédula de ciudadanía</td>
+                <td>Sí</td>
+                <td>Escaneada por ambas caras, legible.</td>
+              </tr>
+              <tr>
+                <td>Certificado de examen médico de ingreso</td>
+                <td>Sí</td>
+                <td>Debe encontrarse en estado <b>Aprobado</b>.</td>
+              </tr>
+              <tr>
+                <td>Certificados laborales</td>
+                <td>No</td>
+                <td>Requeridos solo para cargos administrativos.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+
+      <article id="casos-especiales" style="margin-top:16px;">
+        <h3>Casos especiales</h3>
+        <ul>
+          <li>Contratación para aperturas de tienda con menos de 24 horas: informar al coordinador de contratación.</li>
+          <li>Candidatos con restricciones médicas: validar con Medicina Preventiva antes de registrar el contrato.</li>
+        </ul>
+      </article>
+
+      <article id="contactos" style="margin-top:16px;">
+        <h3>Contactos clave</h3>
+        <ul>
+          <li>Coordinador de contratación asignado al cliente.</li>
+          <li>Enlace de Medicina Preventiva.</li>
+          <li>Asesor comercial responsable de la cuenta.</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    Portal interno de inducción - Grupo Logis · Ficha de cliente.
+  </footer>
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Portal de Inducción - Grupo Logis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo-title">
+      <div class="logo">
+        
+        <img src="img/logo_logis.png" alt="Grupo Logis">
+      </div>
+      <div class="header-text">
+        <h1>Portal de Inducción</h1>
+        <span>Área de Contratación - Grupo Logis</span>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html" class="active">Inicio</a>
+        <a href="induccion.html">Inducción</a>
+        <a href="clientes.html">Clientes</a>
+        <a href="herramientas.html">Herramientas</a>
+        <a href="lecciones.html">Lecciones aprendidas</a>
+      </nav>
+    </div>
+
+    <div class="header-center">
+      <input type="text" class="search-input" placeholder="Buscar cliente, proceso o herramienta...">
+    </div>
+
+    <div class="user-info">
+      <span>Bienvenido(a)</span>
+      <div class="avatar">AL</div>
+    </div>
+  </header>
+
+  <main>
+    <section class="welcome">
+      <h2 class="section-title">Bienvenido(a) al Portal de Inducción</h2>
+      <p class="section-subtitle">
+        Aquí encontrarás los videos, procedimientos y herramientas clave para trabajar en el área de contratación.
+      </p>
+    </section>
+
+    <!-- Tarjetas principales -->
+    <section class="cards-grid">
+      <article class="card">
+        <div class="card-header">
+          <div class="card-icon">🎓</div>
+          <h3>Inducción al área de contratación</h3>
+          <p>
+            Recorre los módulos de inducción general y conoce cómo se relacionan selección, contratación, nómina
+            y medicina preventiva.
+          </p>
+        </div>
+        <a href="induccion.html" class="btn">Ver módulos de inducción</a>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-icon">📂</div>
+          <h3>Clientes y ANS</h3>
+          <p>
+            Consulta los acuerdos de nivel de servicio (ANS), particularidades y documentos requeridos para
+            cada cliente.
+          </p>
+        </div>
+        <a href="clientes.html" class="btn">Ver listado de clientes</a>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <div class="card-icon">⚙️</div>
+          <h3>Herramientas tecnológicas</h3>
+          <p>
+            Aprende a usar la contratación electrónica, el Bot de contratación, las Power Apps y la herramienta MUDO.
+          </p>
+        </div>
+        <a href="herramientas.html" class="btn">Ver tutoriales</a>
+      </article>
+    </section>
+
+    <section class="bottom-grid">
+      <!-- Novedades -->
+      <article class="panel">
+        <h3>Últimas novedades en procesos</h3>
+
+        <div class="timeline-item">
+          <span class="timeline-date">12/11/2025</span>
+          Se actualizó el procedimiento de contratación para el <span class="highlight">Cliente Alfa</span> 
+          (nuevo formato de validación de exámenes médicos de ingreso).
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">05/11/2025</span>
+          Nuevo video: uso de <span class="highlight">Power Apps</span> para el registro de candidatos y actualización de ANS.
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">30/10/2025</span>
+          Ajuste en los tiempos estándar de respuesta para contratos temporales de <b>sector retail</b>.
+        </div>
+
+        <p style="font-size:13px; margin-top:12px;">
+          Para más detalle consulta la sección de <a href="clientes.html">Clientes y ANS</a>.
+        </p>
+      </article>
+
+      
+      <article class="panel">
+        <h3>Últimos recursos de formación</h3>
+
+        <div class="list-item" style="display:flex; gap:12px; margin-bottom:10px;">
+          <div class="thumbnail" style="
+            width: 64px; height: 40px; border-radius: 8px;
+            background: linear-gradient(135deg, var(--primary-light), #ffffff);
+            border: 1px solid var(--border);"></div>
+          <div class="list-text" style="font-size:13px;">
+            <span>Inducción general al proceso de contratación</span>
+            <span class="tag">Video · 12 min</span>
+          </div>
+        </div>
+
+        <div class="list-item" style="display:flex; gap:12px; margin-bottom:10px;">
+          <div class="thumbnail" style="
+            width: 64px; height: 40px; border-radius: 8px;
+            background: linear-gradient(135deg, var(--primary-light), #ffffff);
+            border: 1px solid var(--border);"></div>
+          <div class="list-text" style="font-size:13px;">
+            <span>Errores frecuentes al registrar datos en el ERP</span>
+            <span class="tag">Lección aprendida</span>
+          </div>
+        </div>
+
+        <a href="lecciones.html" class="btn btn-outline">Ver lecciones aprendidas</a>
+      </article>
+    </section>
+  </main>
+
+    <section  class="panel panel-centro">
+      
+      <article class="panel">
+        <h3>Otras formaciones</h3>
+       <img src="img/capacitacion.png"
+     alt="Sesión de formación interna en Grupo Logis"
+     class="home-card-img">
+
+        <p style="font-size:14px;">
+          Aquí encontrarás cursos y formaciones complementarias para fortalecer tus conocimientos en
+          contratación, servicio al cliente, manejo de herramientas tecnológicas y desarrollo personal.
+        </p>
+
+        <ul>
+          <li>Formación en servicio al cliente para contratación.</li>
+          <li>Actualizaciones normativas laborales.</li>
+          <li>Manejo avanzado del ERP y herramientas digitales.</li>
+        </ul>
+
+        <a href="formaciones.html" class="btn">Ver otras formaciones</a>
+      </article>
+
+            
+    </section>
+
+
+   <section  class="panel panel-centro"></section>
+
+   <article class="panel">
+    <h3>formaciones en SST</h3>
+      <img src="img/sst.jpeg"
+     alt="Capacitación inicial en Seguridad y Salud en el Trabajo"
+     class="home-card-img">
+
+        <p style="font-size:14px;">
+          Accede al contenido básico de Seguridad y Salud en el Trabajo (SST) para trabajadores en misión
+          y para el equipo del área de contratación.
+        </p>
+
+        <ul>
+          <li>Conceptos básicos de SST.</li>
+          <li>Responsabilidades del trabajador en misión.</li>
+          <li>Uso adecuado de elementos de protección personal (EPP).</li>
+        </ul>
+
+        <a href="sst.html" class="btn">Ir a capacitación SST</a>
+      </article>
+
+   </section>
+
+
+
+
+
+
+  <footer>
+    Portal interno de inducción - Grupo Logis · Uso exclusivo del área de contratación.
+  </footer>
+</body>
+</html>
